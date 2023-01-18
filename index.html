@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <h1>TOY STORY GAME</h1>  
+    </header>
+    
+    <div id="cartas">
+ 
+        <div id="carta-jogador">
+            <div id="imagem-jogador">
+            </div>
+            <div id="atributos-jogador">
+                <div id="opcoes"></div>
+            </div>
+        </div>
+        <div id="buttons">
+            <button type="button" onclick="sortearCarta()" id="sortearBtn">Sortear carta</button>
+            <button type="button" onclick="jogar()" class="opcoes" id="jogarBtn" disabled="true">Jogar</button>   
+        </div>
+
+
+        <div id="carta-maquina">
+            <div id="imagem-maquina">
+            </div>
+            <div id="atributos-maquina">
+            </div>
+        </div>
+    </div>
+    <div id="resultado">
+        <p id="resultadoTexto"></p>
+    </div>
+</body>
+</html>

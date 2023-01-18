@@ -1,0 +1,165 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://images7.alphacoders.com/333/333950.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: rgb(255, 239, 64);
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.451);
+    font-weight: 900;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    background-color: rgb(61, 129, 255);
+    color: white;
+    font-size: 1.1rem;
+}
+
+button:disabled {
+    background-color: rgb(162, 195, 255);
+}
+
+button:disabled:hover {
+    cursor: default;
+    background-color: rgb(162, 195, 255);
+}
+
+button:hover {
+    background-color: rgb(12, 97, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#cartas {
+    background-color: rgba(240, 248, 255, 0.71);
+    display: flex;
+    height: 80vh;
+    width: 90vw;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#carta-jogador {
+    background-color: rgb(68, 45, 18);
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.648);
+    height: 75vh;
+    width: 25vw;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carta-maquina {
+    background-color: rgb(68, 45, 18);
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.648);
+    height: 75vh;
+    width: 25vw;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagem-jogador {
+    height: 40vh;
+    width: 20vw;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+#imagem-jogador img {
+    height: 40vh;
+    width: 20vw;
+
+}
+
+#imagem-maquina {
+    height: 40vh;
+    width: 20vw;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+#imagem-maquina img {
+    height: 40vh;
+    width: 20vw;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+#atributos-jogador {
+    background-color: rgb(162, 162, 162);
+    border: 2px solid black;
+    height: 30vh;
+    width: 20vw;
+}
+
+
+#atributos-maquina {
+    background-color: rgb(162, 162, 162);
+    border: 2px solid black;
+    height: 30vh;
+    width: 20vw;
+}
+
+#resultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.895);
+    width: 90vw;
+    height: 10vh;
+}
+
+#resultado p {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.carta-subtitle {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#opcoes {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    
+}
+
+#opcoes input {
+    margin: 10px;
+}
+
+#opcoes p {
+    margin-left: 15px;
+}
